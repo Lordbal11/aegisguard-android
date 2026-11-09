@@ -1,4 +1,4 @@
-# This .spec config file tells Buildozer an arequirements for being built.
+﻿# This .spec config file tells Buildozer an arequirements for being built.
 #
 # It largely follows the syntax of an .ini file.
 # See the end of the file for more details and warnings about common mistakes.
@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,requests
+requirements = python3==3.11.9,kivy,requests
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -72,7 +72,7 @@ orientation = portrait
 #
 
 #
-# author = © Copyright Info
+# author = Â© Copyright Info
 
 # Kivy version to use
 osx.kivy_version = 2.2.0
@@ -118,7 +118,7 @@ fullscreen = 0
 #android.sdk = 20
 
 # (str) Android NDK version to use
-#android.ndk = 28c
+android.ndk = 25b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
